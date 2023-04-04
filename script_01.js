@@ -31,6 +31,8 @@ function ausgabeNamen()
 // 2b. Parametrisierung + Datenübergabe von AUSSEN
 
 ausgabeNamenParam("Peter"); // Call + Argument(e)
+ausgabeNamenParam("Evtim");
+ausgabeNamenParam("Joe");
 
 function ausgabeNamenParam(firstName) // Funktion mit Parameter
 {
