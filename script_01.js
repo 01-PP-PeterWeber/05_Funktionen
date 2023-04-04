@@ -20,9 +20,9 @@ ausgabeNamen();
 
 function ausgabeNamen()
 {
+    // what happens in VEGAS ... eine Variable die in einer Funktion deklariert wird, bleibt "nur" dort deklariert 
     let firstName = "Peter";
     console.log("Hallo " + firstName + "!");
 }
-
-
+// console.log(firstName);  // Fehler: Scope!
 
